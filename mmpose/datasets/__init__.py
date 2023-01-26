@@ -1,4 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
+
+# /mmpose/mmpose/datasets/init.py
 from .builder import DATASETS, PIPELINES, build_dataloader, build_dataset
 from .dataset_info import DatasetInfo
 from .pipelines import Compose
@@ -15,10 +17,9 @@ from .datasets import (  # isort:skip
     HandCocoWholeBodyDataset, InterHand2DDataset, InterHand3DDataset,
     MeshAdversarialDataset, MeshH36MDataset, MeshMixDataset, MoshDataset,
     OneHand10KDataset, PanopticDataset, TopDownAicDataset, TopDownCocoDataset,
-    TopDownCocoWholeBodyDataset, TopDownCrowdPoseDataset,
-    TopDownFreiHandDataset, TopDownH36MDataset, TopDownJhmdbDataset,
+    TopDownCocoWholeBodyDataset, TopDownCrowdPoseDataset, TopDownH36MDataset, TopDownJhmdbDataset,
     TopDownMhpDataset, TopDownMpiiDataset, TopDownMpiiTrbDataset,
-    TopDownOCHumanDataset, TopDownOneHand10KDataset, TopDownPanopticDataset,
+    TopDownOCHumanDataset,
     TopDownPoseTrack18Dataset, TopDownPoseTrack18VideoDataset,
     Body3DMviewDirectPanopticDataset, Body3DMviewDirectShelfDataset,
     Body3DMviewDirectCampusDataset, NVGestureDataset)
